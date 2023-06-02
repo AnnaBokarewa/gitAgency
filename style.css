@@ -1,0 +1,214 @@
+*{margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+img {max-width: 100%;}
+
+body {
+    font-family:'Open Sans', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 1250px/2);
+    padding-right: calc(50% - 1250px/2);
+}
+
+.top {
+    background: #F6F2F2;
+    padding-top: 29px;
+    padding-bottom: 110px;
+
+    .header {
+        background-color: black;
+
+    
+        .menu {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        }
+
+        .header_link {
+            color: #E0E0E0;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.49px;
+            text-transform: uppercase;
+            padding: 38px 23px 26px;
+            display: flex;
+        }
+
+        .header_link:hover {
+            color: #FF3F40;
+        }
+
+        .header_link_active {
+        background: #FF3F40;
+        }
+        .header_link_active:hover {color: #E0E0E0;}
+    }
+
+    .main_top {
+        padding-top: 101px;
+        display: flex;
+        justify-content: center;
+
+
+
+        .title {
+            font-style: italic;
+            font-weight: 800;
+            font-size: 60px;
+            line-height: 72px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            width: 617px;
+            margin-bottom: 36px;
+        }
+
+        .text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15.9953px;
+            line-height: 28px;
+            margin-bottom: 63px;
+        }
+
+        .top_text { width: 544px;}
+
+        .top_video {
+            width: 553.12px;
+            height: 359px;
+        }
+
+        .button {
+            width: 226.64px;
+            height: 55px;
+            border-radius: 3px;
+            border: none;
+            background-color:#FF3F40;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18.0412px;
+            line-height: 34px;
+            color: #FFFFFF;
+        }
+
+        .button:hover {
+            background: #e63838;
+            cursor: pointer;
+        }
+
+        .button:active {
+            box-shadow: 0 3px 1px #808080;
+            margin-top: 2px; 
+        }
+    }
+}
+
+.services {
+padding-top: 107px;
+
+    .services_box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 32px;
+        border-bottom: 5px solid #ECECEC;
+        padding-bottom: 99px;
+    }
+
+    .services_block1 {
+    width: 538px;
+
+
+        .services_title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42.1902px;
+        line-height: 55px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.422159px;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 50px;
+        }
+
+        .services_text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        margin-bottom: 64px;
+        }
+
+        .services_button {
+        width: 226.82px;
+        height: 55px;
+        left: 164px;
+        top: 1095px;
+        background: rgba(0, 0, 0, 0.0001);
+        border: 2px solid #FF0000;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18.0412px;
+        line-height: 34px;
+        letter-spacing: 0.3195px;
+        color: #FF2D2D;
+        border-radius: 3px;
+        }
+
+        .services_button:hover {
+        background: #e63838;
+        color: #FFFFFF;
+        cursor: pointer;
+        }
+
+        .services_button:active {
+        box-shadow: 0 3px 1px #808080;
+        margin-top: 2px; 
+        }
+    }
+
+    .services_block2 {
+width: 610px;
+display: flex;
+flex-wrap: wrap;
+column-gap: 10px;
+
+
+    .services_subscribe {
+        margin-bottom: 53px;
+        flex-grow: 1;
+        flex-basis: 298px;
+
+
+        .services_subscribe_title {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-size: 24.0692px;
+            line-height: 0px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.271838px;
+            color: #000000;
+            margin-bottom: 13px;
+        }
+
+        .icon {
+            margin-bottom: 31px;
+        }
+
+        .icon:hover {
+            filter: drop-shadow(0px 2px 2px);
+        }
+    }
+    }
+}
